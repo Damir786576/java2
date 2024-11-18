@@ -23,7 +23,6 @@ public class Hufflepuff extends Hogwarts {
         return loyal;
     }
 
-
     public void setLoyal(int loyal) {
         this.loyal = loyal;
     }

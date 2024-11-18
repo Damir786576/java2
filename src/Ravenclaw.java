@@ -21,7 +21,6 @@ public class Ravenclaw extends Hogwarts {
         this.smart = smart;
     }
 
-
     public int getWise() {
         return wise;
     }

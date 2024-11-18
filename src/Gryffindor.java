@@ -11,7 +11,6 @@ public class Gryffindor extends Hogwarts {
         this.nobility = nobility;
     }
 
-
     public int getBravery() {
         return bravery;
     }
