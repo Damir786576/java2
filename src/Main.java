@@ -21,6 +21,7 @@ public class Main {
         slytherinStudents[1] = new Slytherin("Грэхэм", "Монтегю", 90, 82, 93, 97, 82, 99, 94);
         slytherinStudents[2] = new Slytherin("Грегори", "Гойл", 82, 85, 89, 91, 90, 82, 84);
 
+
         printGryffindor(gryffindorStudents);
         System.out.println();
         printHufflepuff(hufflepuffStudents);
