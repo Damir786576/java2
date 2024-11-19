@@ -55,6 +55,22 @@ public class Slytherin extends Hogwarts {
         this.power = power;
     }
 
+    // comparing students of faculties
+    public static void compareSlytherin(Slytherin student1, Slytherin student2) {
+        int score1 = student1.getCunning() + student1.getAmbition() + student1.getResourcefulness() +
+                student1.getPower() + student1.getDetermination();
+        int score2 = student2.getCunning() + student2.getAmbition() + student2.getResourcefulness() +
+                student1.getPower() + student1.getDetermination();
+
+        if (score1 > score2) {
+            System.out.println(student1.getSurname() + " лучший Слизериниец, чем " + student2.getSurname());
+        } else if (score1 < score2) {
+            System.out.println(student2.getSurname() + " лучший Слизериниец, чем " + student1.getSurname());
+        } else {
+            System.out.println(student1.getSurname() + " и " + student2.getSurname() + " на одинаковом уровне.");
+        }
+    }
+
     @Override
     public String toString() {
         return "Ravenclaw{" +
